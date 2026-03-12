@@ -6,3 +6,10 @@ double PrecioFinal (double precio, double descuento)
     return resu;
 }
 
+Console.WriteLine("Ingrese el precio del producto");
+double pr = double.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el descuento");
+double des = double.Parse(Console.ReadLine());
+
+double resultado = PrecioFinal(pr, des);
+Console.WriteLine($"El precio final es {resultado}");
