@@ -5,3 +5,8 @@ double AreaCirculo (double a)
     return area;
 }
 
+Console.WriteLine("Ingrese el radio del circulo");
+double n1 = double.Parse(Console.ReadLine());
+
+double resultado = AreaCirculo(n1);
+Console.WriteLine($"El area del circulo es {resultado}");
