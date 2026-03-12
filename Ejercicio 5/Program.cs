@@ -4,3 +4,10 @@ int AreaRectangulo (int basec, int alturac)
     int area = basec * alturac;
     return area;
 }
+
+Console.WriteLine("Ingrese la base");
+int basecua = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese la area");
+int areacua = int.Parse(Console.ReadLine());
+
+I
