@@ -8,3 +8,5 @@ int DobleNumero(int a)
 Console.WriteLine("Ingrese un numero");
 int num1 = int.Parse(Console.ReadLine());
 
+int resultado = DobleNumero(num1);
+Console.WriteLine($"El doble de un numero {resultado}");
