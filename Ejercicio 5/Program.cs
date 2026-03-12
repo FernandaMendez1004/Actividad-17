@@ -10,4 +10,5 @@ int basecua = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese la area");
 int areacua = int.Parse(Console.ReadLine());
 
-Ijkasjk
+int resucua = AreaRectangulo(basecua, areacua);
+Console.WriteLine($"El area del cuadrado es {resucua}");
