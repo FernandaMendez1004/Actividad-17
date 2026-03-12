@@ -10,4 +10,4 @@ int basecua = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese la area");
 int areacua = int.Parse(Console.ReadLine());
 
-I
+Ijkasjk
